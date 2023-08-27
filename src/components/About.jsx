@@ -10,6 +10,8 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { Tilt } from "react-tilt";
+import { SectionWrapper } from "../hoc";
+
 
 const ServiceCard = ({index, title,  icon}) => {
   const tiltOptions = {
@@ -73,4 +75,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, "about")
