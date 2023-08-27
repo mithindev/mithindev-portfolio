@@ -7,6 +7,10 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+// mv0t_wujGWSxL8q_I
+// template_56fkgmf
+// service_2tnfnvl
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -33,16 +37,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_2tnfnvl',
+        'template_56fkgmf',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "MITHIN DEV",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "mithindev1@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'mv0t_wujGWSxL8q_I'
       )
       .then(
         () => {
