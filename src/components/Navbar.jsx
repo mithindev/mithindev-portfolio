@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -43,10 +44,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo' className='w-9 h-9 object-contain rounded-full' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            MITHIN &nbsp;
+            <span className='sm:block hidden'>DEVELOPER</span>
           </p>
         </Link>
 
@@ -55,7 +56,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
+                active === nav.title ? "text-white" : "text-[#EEEEEE]" // Change text color to #EEEEEE
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
@@ -82,7 +83,7 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
+                    active === nav.title ? "text-white" : "text-[#EEEEEE]" // Change text color to #EEEEEE
                   }`}
                   onClick={() => {
                     setToggle(!toggle);
