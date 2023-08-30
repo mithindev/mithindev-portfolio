@@ -50,10 +50,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Motivated and skilled developer proficient in TypeScript and JavaScript, with expertise in React, Node.js, and Three.js. A proven track record of open-source contributions underscores my dedication. Passionate about Machine Learning, Artificial Intelligence, and process automation, I am a fast learner who collaborates closely with clients to craft efficient, scalable, and user-friendly solutions that address real-world challenges. Let's collaborate to bring your ideas to life!
-      </motion.p>
+      Experienced developer specialized in TypeScript, JavaScript, React, Node.js, and Three.js. Strong open-source contributions. Enthusiastic about Machine Learning, AI, and process automation. Skilled at crafting efficient, scalable, user-friendly solutions for real-world challenges. Let's bring your ideas to life together!      </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-10 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
