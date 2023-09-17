@@ -1,11 +1,11 @@
 Model Information:
-* title:	Stylized planet
-* source:	https://sketchfab.com/3d-models/stylized-planet-789725db86f547fc9163b00f302c3e70
-* author:	cmzw (https://sketchfab.com/cmzw)
+* title:	Working Space
+* source:	https://sketchfab.com/3d-models/working-space-f407b224ac544e3ea9b0559c64fa7d20
+* author:	Tochi-Tan (https://sketchfab.com/Tochi-Tan)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Stylized planet" (https://sketchfab.com/3d-models/stylized-planet-789725db86f547fc9163b00f302c3e70) by cmzw (https://sketchfab.com/cmzw) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Working Space" (https://sketchfab.com/3d-models/working-space-f407b224ac544e3ea9b0559c64fa7d20) by Tochi-Tan (https://sketchfab.com/Tochi-Tan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
