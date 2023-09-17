@@ -1,11 +1,14 @@
 import logo from "./logo.jpeg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import backend from "./backend.svg";
+import creator from "./creator.svg";
+import mobile from "./mobile.svg";
+import web from "./web.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import writer from "./writer.svg";
+import hashnode from "./hashnode.png";
+import foundit from "./foundit.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  writer,
+  hashnode,
+  foundit
 };

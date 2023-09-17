@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  foundit,
+  hashnode
 } from "../assets";
 
 export const navLinks = [
@@ -122,7 +124,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "",
-    icon: threejs,
+    icon: reactjs,
     iconBg: "#383E56",
     date: "December 2022 - Present",
     points: [
@@ -133,16 +135,15 @@ const experiences = [
     ],
   },
   {
-    title: "Technical Content",
+    title: "Technical Content Writer",
     company_name: "",
-    icon: meta,
+    icon: hashnode,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I write Simple and informative articles in a engaging way!",
+      "Read my articles on Hashnode, Medium and many more blogging sites",
+      "Writer @Mithin's Concepts"
     ],
   },
 ];
@@ -176,68 +177,68 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "FoundIt",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "🔍 FoundIt is an application that empowers users to report lost items and connect them with potential matches. It allows for seamless submission of item details.",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JavaFX",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Maven",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: foundit,
+    source_code_link: "https://github.com/mithindev/FoundIt",
   },
   {
-    name: "Job IT",
+    name: "CodeEngage",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An Applications that allows you to talk with your code! It uses completely opensource models for training and retriving! Very easy to use and understand",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "ml",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "ai",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+    source_code_link: "https://github.com/mithindev/CodeEngage",
+  }
+//   {
+//     name: "Trip Guide",
+//     description:
+//       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+//     tags: [
+//       {
+//         name: "nextjs",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "supabase",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "css",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: tripguide,
+//     source_code_link: "https://github.com/",
+//   },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
