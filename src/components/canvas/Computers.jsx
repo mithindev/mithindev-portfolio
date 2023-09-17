@@ -31,7 +31,7 @@ const Computers = () => {
     // </mesh>
 
     <mesh>
-      <hemisphereLight intensity={2} groundColor='black' />
+      <hemisphereLight intensity={10} groundColor='black' />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
